@@ -1,0 +1,35 @@
+{
+  "name": "generator-milagro-email",
+  "version": "0.0.0",
+  "description": "Yeoman generator",
+  "license": "MIT",
+  "main": "app/index.js",
+  "repository": "agenciamilagro/generator-milagro-email",
+  "author": {
+    "name": "Agência Milagro",
+    "email": "contato@agenciamilagro.com.br",
+    "url": "https://github.com/agenciamilagro"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "files": [
+    "app"
+  ],
+  "keywords": [
+    "yeoman-generator"
+  ],
+  "dependencies": {
+    "yeoman-generator": "~0.16.0",
+    "chalk": "~0.4.0"
+  },
+  "devDependencies": {
+    "mocha": "*"
+  },
+  "peerDependencies": {
+    "yo": ">=1.0.0"
+  }
+}
